@@ -1,0 +1,324 @@
+\input{pre}
+\usepackage{alltt}
+\usepackage{bibunits}
+\usepackage{multicol}
+\def\dotfill#1{\cleaders\hbox to #1{.}\hfill}
+\newcommand\dotline[2][.5em]{\footnotesize\leavevmode\hbox to #2{\dotfill{#1}\hfil}\normalsize}
+
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+   
+
+\usepackage{tikz,everypage}
+\usetikzlibrary{backgrounds}
+
+\newcommand*{\AbsolutePosition}[3]{%
+    % #1 = x (from south west corner of page
+    % #2 = y
+    % #3 = content
+    \AddThispageHook{%
+        \begin{tikzpicture}[remember picture,overlay]
+            \draw (current page.south west) ++(#1,#2) node {#3};%
+        \end{tikzpicture}
+    }%
+}
+
+\begin{document}
+\raggedcolumns
+
+\definecolor{Gray}{gray}{0.90}
+\definecolor{zzttqq}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\definecolor{cqcqcq}{rgb}{0.7529411764705882,0.7529411764705882,0.7529411764705882}
+\newcolumntype{a}{>{\columncolor{Gray}}p}
+
+
+\pagebreak
+\medskip
+\renewcommand\contentsname{}
+
+\setlength\columnsep{100pt}
+
+\centering
+\begin{multicols*}{2}
+\centering
+\textbf{\textsc{партия} №}  \dotline[3pt]{30pt}\ \hfill \textsc{место}: \  \dotline[3pt]{200pt} \ \\
+\vspace{+8pt}
+\textsc{дата}: \  \dotline[3pt]{55pt} \hfill \  \textsc{контроль}: \ \dotline[3pt]{40pt} \hfill \
+\textsc{результат}: \ \dotline[3pt]{65pt}\ \\
+\vspace{+6pt}
+\square \ \dotline[3pt]{147pt} \hfill \blacksquare \ \dotline[3pt]{147pt}\\
+\vspace{7pt}
+
+\begin{longtable}{|p{0.5cm}|p{1.9cm}|a{1.9cm}||p{0.5cm}|p{1.9cm}|a{1.9cm}|}
+\hline
+1 &  &  & 26 & & \\ 
+ \hline 
+2 &  &  & 27 & & \\ 
+ \hline 
+3 &  &  & 28 & & \\ 
+ \hline 
+4 &  &  & 29 & & \\ 
+ \hline 
+5 &  &  & 30 & & \\ 
+ \hline 
+6 &  &  & 31 & & \\ 
+ \hline 
+7 &  &  & 32 & & \\ 
+ \hline 
+8 &  &  & 33 & & \\ 
+ \hline 
+9 &  &  & 34 & & \\ 
+ \hline 
+10 &  &  & 35 & & \\ 
+ \hline 
+11 &  &  & 36 & & \\ 
+ \hline 
+12 &  &  & 37 & & \\ 
+ \hline 
+13 &  &  & 38 & & \\ 
+ \hline 
+14 &  &  & 39 & & \\ 
+ \hline 
+15 &  &  & 40 & & \\ 
+ \hline 
+16 &  &  & 41 & & \\ 
+ \hline 
+17 &  &  & 42 & & \\ 
+ \hline 
+18 &  &  & 43 & & \\ 
+ \hline 
+19 &  &  & 44 & & \\ 
+ \hline 
+20 &  &  & 45 & & \\ 
+ \hline 
+21 &  &  & 46 & & \\ 
+ \hline 
+22 &  &  & 47 & & \\ 
+ \hline 
+23 &  &  & 48 & & \\ 
+ \hline 
+24 &  &  & 49 & & \\ 
+ \hline 
+25 &  &  & 50 & & \\
+\hline
+\end{longtable}
+\vspace{-1pt}
+vk.com/ziferchess
+\normalsize
+\centering
+
+
+\columnbreak
+
+\enlargethispage{6000pt}
+\centering
+\textbf{\textsc{партия} №}  \dotline[3pt]{30pt}\ \hfill \textsc{место}: \  \dotline[3pt]{200pt} \ \\
+\vspace{+8pt}
+\textsc{дата}: \  \dotline[3pt]{55pt} \hfill \  \textsc{контроль}: \ \dotline[3pt]{40pt} \hfill \
+\textsc{результат}: \ \dotline[3pt]{65pt}\ \\
+\vspace{+6pt}
+\square \ \dotline[3pt]{147pt} \hfill \blacksquare \ \dotline[3pt]{147pt}\\
+\vspace{7pt}
+
+\begin{longtable}{|p{0.5cm}|p{1.9cm}|a{1.9cm}||p{0.5cm}|p{1.9cm}|a{1.9cm}|}
+\hline
+1 &  &  & 26 & & \\ 
+ \hline 
+2 &  &  & 27 & & \\ 
+ \hline 
+3 &  &  & 28 & & \\ 
+ \hline 
+4 &  &  & 29 & & \\ 
+ \hline 
+5 &  &  & 30 & & \\ 
+ \hline 
+6 &  &  & 31 & & \\ 
+ \hline 
+7 &  &  & 32 & & \\ 
+ \hline 
+8 &  &  & 33 & & \\ 
+ \hline 
+9 &  &  & 34 & & \\ 
+ \hline 
+10 &  &  & 35 & & \\ 
+ \hline 
+11 &  &  & 36 & & \\ 
+ \hline 
+12 &  &  & 37 & & \\ 
+ \hline 
+13 &  &  & 38 & & \\ 
+ \hline 
+14 &  &  & 39 & & \\ 
+ \hline 
+15 &  &  & 40 & & \\ 
+ \hline 
+16 &  &  & 41 & & \\ 
+ \hline 
+17 &  &  & 42 & & \\ 
+ \hline 
+18 &  &  & 43 & & \\ 
+ \hline 
+19 &  &  & 44 & & \\ 
+ \hline 
+20 &  &  & 45 & & \\ 
+ \hline 
+21 &  &  & 46 & & \\ 
+ \hline 
+22 &  &  & 47 & & \\ 
+ \hline 
+23 &  &  & 48 & & \\ 
+ \hline 
+24 &  &  & 49 & & \\ 
+ \hline 
+25 &  &  & 50 & & \\
+\hline
+\end{longtable}
+\vspace{-1pt}
+vk.com/ziferchess
+\end{multicols*}
+
+\pagebreak
+
+\centering
+\begin{multicols*}{2}
+\centering
+\textbf{\textsc{партия} №}  \dotline[3pt]{30pt}\ \hfill \textsc{место}: \  \dotline[3pt]{200pt} \ \\
+\vspace{+8pt}
+\textsc{дата}: \  \dotline[3pt]{55pt} \hfill \  \textsc{контроль}: \ \dotline[3pt]{40pt} \hfill \
+\textsc{результат}: \ \dotline[3pt]{65pt}\ \\
+\vspace{+6pt}
+\square \ \dotline[3pt]{147pt} \hfill \blacksquare \ \dotline[3pt]{147pt}\\
+\vspace{7pt}
+
+\begin{longtable}{|p{0.5cm}|p{1.9cm}|a{1.9cm}||p{0.5cm}|p{1.9cm}|a{1.9cm}|}
+\hline
+1 &  &  & 26 & & \\ 
+ \hline 
+2 &  &  & 27 & & \\ 
+ \hline 
+3 &  &  & 28 & & \\ 
+ \hline 
+4 &  &  & 29 & & \\ 
+ \hline 
+5 &  &  & 30 & & \\ 
+ \hline 
+6 &  &  & 31 & & \\ 
+ \hline 
+7 &  &  & 32 & & \\ 
+ \hline 
+8 &  &  & 33 & & \\ 
+ \hline 
+9 &  &  & 34 & & \\ 
+ \hline 
+10 &  &  & 35 & & \\ 
+ \hline 
+11 &  &  & 36 & & \\ 
+ \hline 
+12 &  &  & 37 & & \\ 
+ \hline 
+13 &  &  & 38 & & \\ 
+ \hline 
+14 &  &  & 39 & & \\ 
+ \hline 
+15 &  &  & 40 & & \\ 
+ \hline 
+16 &  &  & 41 & & \\ 
+ \hline 
+17 &  &  & 42 & & \\ 
+ \hline 
+18 &  &  & 43 & & \\ 
+ \hline 
+19 &  &  & 44 & & \\ 
+ \hline 
+20 &  &  & 45 & & \\ 
+ \hline 
+21 &  &  & 46 & & \\ 
+ \hline 
+22 &  &  & 47 & & \\ 
+ \hline 
+23 &  &  & 48 & & \\ 
+ \hline 
+24 &  &  & 49 & & \\ 
+ \hline 
+25 &  &  & 50 & & \\
+\hline
+\end{longtable}
+\vspace{-1pt}
+vk.com/ziferchess
+\normalsize
+\centering
+
+
+\columnbreak
+
+\enlargethispage{6000pt}
+\centering
+\textbf{\textsc{партия} №}  \dotline[3pt]{30pt}\ \hfill \textsc{место}: \  \dotline[3pt]{200pt} \ \\
+\vspace{+8pt}
+\textsc{дата}: \  \dotline[3pt]{55pt} \hfill \  \textsc{контроль}: \ \dotline[3pt]{40pt} \hfill \
+\textsc{результат}: \ \dotline[3pt]{65pt}\ \\
+\vspace{+6pt}
+\square \ \dotline[3pt]{147pt} \hfill \blacksquare \ \dotline[3pt]{147pt}\\
+\vspace{7pt}
+
+\begin{longtable}{|p{0.5cm}|p{1.9cm}|a{1.9cm}||p{0.5cm}|p{1.9cm}|a{1.9cm}|}
+\hline
+1 &  &  & 26 & & \\ 
+ \hline 
+2 &  &  & 27 & & \\ 
+ \hline 
+3 &  &  & 28 & & \\ 
+ \hline 
+4 &  &  & 29 & & \\ 
+ \hline 
+5 &  &  & 30 & & \\ 
+ \hline 
+6 &  &  & 31 & & \\ 
+ \hline 
+7 &  &  & 32 & & \\ 
+ \hline 
+8 &  &  & 33 & & \\ 
+ \hline 
+9 &  &  & 34 & & \\ 
+ \hline 
+10 &  &  & 35 & & \\ 
+ \hline 
+11 &  &  & 36 & & \\ 
+ \hline 
+12 &  &  & 37 & & \\ 
+ \hline 
+13 &  &  & 38 & & \\ 
+ \hline 
+14 &  &  & 39 & & \\ 
+ \hline 
+15 &  &  & 40 & & \\ 
+ \hline 
+16 &  &  & 41 & & \\ 
+ \hline 
+17 &  &  & 42 & & \\ 
+ \hline 
+18 &  &  & 43 & & \\ 
+ \hline 
+19 &  &  & 44 & & \\ 
+ \hline 
+20 &  &  & 45 & & \\ 
+ \hline 
+21 &  &  & 46 & & \\ 
+ \hline 
+22 &  &  & 47 & & \\ 
+ \hline 
+23 &  &  & 48 & & \\ 
+ \hline 
+24 &  &  & 49 & & \\ 
+ \hline 
+25 &  &  & 50 & & \\
+\hline
+\end{longtable}
+\vspace{-1pt}
+vk.com/ziferchess
+
+\end{multicols*}
+\end{document}
